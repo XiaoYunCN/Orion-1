@@ -14,12 +14,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(123, 255, 247),
-			Second = Color3.fromRGB(123, 255, 247),
-			Stroke = Color3.fromRGB(123, 255, 247),
-			Divider = Color3.fromRGB(123, 255, 247),
-			Text = Color3.fromRGB(123, 255, 247),
-			TextDark = Color3.fromRGB(123, 255, 247)
+			Main = Color3.fromRGB(127, 251, 111),
+			Second = Color3.fromRGB(122, 251, 122),
+			Stroke = Color3.fromRGB(121, 155, 133),
+			Divider = Color3.fromRGB(128, 215, 144),
+			Text = Color3.fromRGB(129, 155, 155),
+			TextDark = Color3.fromRGB(124, 155, 166)
 		}
 	},
 	SelectedTheme = "Default",
@@ -1040,7 +1040,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					SliderDrag
 				})
 
-				local SliderFrame = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(123, 255, 247), 0, 4), {
+				local SliderFrame = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 4), {
 					Size = UDim2.new(1, 0, 0, 65),
 					Parent = ItemParent
 				}), {
